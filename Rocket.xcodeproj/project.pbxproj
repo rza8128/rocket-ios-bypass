@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1710EC6324E3B8C600F7A59F /* ShellFull.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1710EC6224E3B8C600F7A59F /* ShellFull.swift */; };
+		1710EC6524E3C3B100F7A59F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1710EC6424E3C3B100F7A59F /* MainViewController.swift */; };
+		1710EC6724E3C69E00F7A59F /* FMIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1710EC6624E3C69E00F7A59F /* FMIViewController.swift */; };
+		1710EC6924E3C71500F7A59F /* BCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1710EC6824E3C71500F7A59F /* BCViewController.swift */; };
+		1710EC6B24E3CF5C00F7A59F /* Cryptic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1710EC6A24E3CF5C00F7A59F /* Cryptic.swift */; };
+		1710EC6E24E3D7AD00F7A59F /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 1710EC6D24E3D7AD00F7A59F /* SwiftyJSON */; };
+		1710EC7024E4E40F00F7A59F /* OFFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1710EC6F24E4E40F00F7A59F /* OFFViewController.swift */; };
+		1710EC7224E59A3600F7A59F /* party.tar.gz in Resources */ = {isa = PBXBuildFile; fileRef = 1710EC7124E59A3600F7A59F /* party.tar.gz */; };
+		1710EC7424E5ED2400F7A59F /* clean.tar.gz in Resources */ = {isa = PBXBuildFile; fileRef = 1710EC7324E5ED2400F7A59F /* clean.tar.gz */; };
+		1710EC7624EA69ED00F7A59F /* FreeUntViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1710EC7524EA69ED00F7A59F /* FreeUntViewController.swift */; };
+		176D93A224D3B3A30054E1F8 /* Stockholm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176D93A124D3B3A30054E1F8 /* Stockholm.swift */; };
+		176D93A424D3B4720054E1F8 /* Oman.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176D93A324D3B4720054E1F8 /* Oman.swift */; };
+		17C2B21024D25BCC00B5D741 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C2B20F24D25BCC00B5D741 /* AppDelegate.swift */; };
+		17C2B21224D25BCC00B5D741 /* GSMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C2B21124D25BCC00B5D741 /* GSMViewController.swift */; };
+		17C2B21424D25BD100B5D741 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17C2B21324D25BD100B5D741 /* Assets.xcassets */; };
+		17C2B21724D25BD100B5D741 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17C2B21524D25BD100B5D741 /* Main.storyboard */; };
+		17C2B22124D2805F00B5D741 /* RNCryptor in Frameworks */ = {isa = PBXBuildFile; productRef = 17C2B22024D2805F00B5D741 /* RNCryptor */; };
+		17C2B22624D2993B00B5D741 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 17C2B22524D2993B00B5D741 /* Alamofire */; };
+		17DA680C251863A8006DB801 /* MEIDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DA680B251863A8006DB801 /* MEIDViewController.swift */; };
+		17EA2E8424DE770A00E40419 /* boot.tar.lzma in Resources */ = {isa = PBXBuildFile; fileRef = 17EA2E8124DE770A00E40419 /* boot.tar.lzma */; };
+		17EA2E8D24DF69E200E40419 /* bootb.tar.gz in Resources */ = {isa = PBXBuildFile; fileRef = 17EA2E8B24DF69E200E40419 /* bootb.tar.gz */; };
+		17EA2E8E24DF69E200E40419 /* bootd.tar.gz in Resources */ = {isa = PBXBuildFile; fileRef = 17EA2E8C24DF69E200E40419 /* bootd.tar.gz */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1758443624DD505F00FD60FF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1710EC6224E3B8C600F7A59F /* ShellFull.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShellFull.swift; sourceTree = "<group>"; };
+		1710EC6424E3C3B100F7A59F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		1710EC6624E3C69E00F7A59F /* FMIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMIViewController.swift; sourceTree = "<group>"; };
+		1710EC6824E3C71500F7A59F /* BCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BCViewController.swift; sourceTree = "<group>"; };
+		1710EC6A24E3CF5C00F7A59F /* Cryptic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cryptic.swift; sourceTree = "<group>"; };
+		1710EC6F24E4E40F00F7A59F /* OFFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OFFViewController.swift; sourceTree = "<group>"; };
+		1710EC7124E59A3600F7A59F /* party.tar.gz */ = {isa = PBXFileReference; lastKnownFileType = archive.gzip; path = party.tar.gz; sourceTree = "<group>"; };
+		1710EC7324E5ED2400F7A59F /* clean.tar.gz */ = {isa = PBXFileReference; lastKnownFileType = archive.gzip; path = clean.tar.gz; sourceTree = "<group>"; };
+		1710EC7524EA69ED00F7A59F /* FreeUntViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeUntViewController.swift; sourceTree = "<group>"; };
+		176D93A124D3B3A30054E1F8 /* Stockholm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stockholm.swift; sourceTree = "<group>"; };
+		176D93A324D3B4720054E1F8 /* Oman.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Oman.swift; sourceTree = "<group>"; };
+		17C2B20C24D25BCC00B5D741 /* Rocket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rocket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17C2B20F24D25BCC00B5D741 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		17C2B21124D25BCC00B5D741 /* GSMViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSMViewController.swift; sourceTree = "<group>"; };
+		17C2B21324D25BD100B5D741 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17C2B21624D25BD100B5D741 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17C2B21824D25BD100B5D741 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17C2B21924D25BD100B5D741 /* Rocket.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Rocket.entitlements; sourceTree = "<group>"; };
+		17DA680B251863A8006DB801 /* MEIDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEIDViewController.swift; sourceTree = "<group>"; };
+		17EA2E8124DE770A00E40419 /* boot.tar.lzma */ = {isa = PBXFileReference; lastKnownFileType = file; path = boot.tar.lzma; sourceTree = "<group>"; };
+		17EA2E8B24DF69E200E40419 /* bootb.tar.gz */ = {isa = PBXFileReference; lastKnownFileType = archive.gzip; name = bootb.tar.gz; path = ../../sw0rdf1sh/shell/boot/bootb.tar.gz; sourceTree = "<group>"; };
+		17EA2E8C24DF69E200E40419 /* bootd.tar.gz */ = {isa = PBXFileReference; lastKnownFileType = archive.gzip; name = bootd.tar.gz; path = ../../sw0rdf1sh/shell/boot/bootd.tar.gz; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17C2B20924D25BCC00B5D741 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1710EC6E24E3D7AD00F7A59F /* SwiftyJSON in Frameworks */,
+				17C2B22124D2805F00B5D741 /* RNCryptor in Frameworks */,
+				17C2B22624D2993B00B5D741 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		176D93A924D3FC9D0054E1F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		17C2B20324D25BCC00B5D741 = {
+			isa = PBXGroup;
+			children = (
+				1710EC7324E5ED2400F7A59F /* clean.tar.gz */,
+				1710EC7124E59A3600F7A59F /* party.tar.gz */,
+				17EA2E8B24DF69E200E40419 /* bootb.tar.gz */,
+				17EA2E8C24DF69E200E40419 /* bootd.tar.gz */,
+				17EA2E8124DE770A00E40419 /* boot.tar.lzma */,
+				17C2B20E24D25BCC00B5D741 /* Rocket */,
+				17C2B20D24D25BCC00B5D741 /* Products */,
+				176D93A924D3FC9D0054E1F8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		17C2B20D24D25BCC00B5D741 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17C2B20C24D25BCC00B5D741 /* Rocket.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17C2B20E24D25BCC00B5D741 /* Rocket */ = {
+			isa = PBXGroup;
+			children = (
+				17C2B20F24D25BCC00B5D741 /* AppDelegate.swift */,
+				17C2B21124D25BCC00B5D741 /* GSMViewController.swift */,
+				17C2B21324D25BD100B5D741 /* Assets.xcassets */,
+				17C2B21524D25BD100B5D741 /* Main.storyboard */,
+				17C2B21824D25BD100B5D741 /* Info.plist */,
+				17C2B21924D25BD100B5D741 /* Rocket.entitlements */,
+				176D93A124D3B3A30054E1F8 /* Stockholm.swift */,
+				176D93A324D3B4720054E1F8 /* Oman.swift */,
+				1710EC6224E3B8C600F7A59F /* ShellFull.swift */,
+				1710EC6424E3C3B100F7A59F /* MainViewController.swift */,
+				1710EC6624E3C69E00F7A59F /* FMIViewController.swift */,
+				1710EC6824E3C71500F7A59F /* BCViewController.swift */,
+				1710EC6A24E3CF5C00F7A59F /* Cryptic.swift */,
+				1710EC6F24E4E40F00F7A59F /* OFFViewController.swift */,
+				1710EC7524EA69ED00F7A59F /* FreeUntViewController.swift */,
+				17DA680B251863A8006DB801 /* MEIDViewController.swift */,
+			);
+			path = Rocket;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1758442524DD3FF700FD60FF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		17C2B20B24D25BCC00B5D741 /* Rocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17C2B21C24D25BD100B5D741 /* Build configuration list for PBXNativeTarget "Rocket" */;
+			buildPhases = (
+				1758442524DD3FF700FD60FF /* Headers */,
+				17C2B20824D25BCC00B5D741 /* Sources */,
+				17C2B20924D25BCC00B5D741 /* Frameworks */,
+				17C2B20A24D25BCC00B5D741 /* Resources */,
+				1758443624DD505F00FD60FF /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17C2B22824D2994300B5D741 /* PBXTargetDependency */,
+				17C2B22324D2806A00B5D741 /* PBXTargetDependency */,
+			);
+			name = Rocket;
+			packageProductDependencies = (
+				17C2B22024D2805F00B5D741 /* RNCryptor */,
+				17C2B22524D2993B00B5D741 /* Alamofire */,
+				1710EC6D24E3D7AD00F7A59F /* SwiftyJSON */,
+			);
+			productName = Rocket;
+			productReference = 17C2B20C24D25BCC00B5D741 /* Rocket.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17C2B20424D25BCC00B5D741 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = sfish;
+				TargetAttributes = {
+					17C2B20B24D25BCC00B5D741 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 17C2B20724D25BCC00B5D741 /* Build configuration list for PBXProject "Rocket" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17C2B20324D25BCC00B5D741;
+			packageReferences = (
+				17C2B21F24D2805F00B5D741 /* XCRemoteSwiftPackageReference "RNCryptor" */,
+				17C2B22424D2993B00B5D741 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				1710EC6C24E3D7AD00F7A59F /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+			);
+			productRefGroup = 17C2B20D24D25BCC00B5D741 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17C2B20B24D25BCC00B5D741 /* Rocket */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17C2B20A24D25BCC00B5D741 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1710EC7424E5ED2400F7A59F /* clean.tar.gz in Resources */,
+				1710EC7224E59A3600F7A59F /* party.tar.gz in Resources */,
+				17EA2E8D24DF69E200E40419 /* bootb.tar.gz in Resources */,
+				17EA2E8E24DF69E200E40419 /* bootd.tar.gz in Resources */,
+				17EA2E8424DE770A00E40419 /* boot.tar.lzma in Resources */,
+				17C2B21424D25BD100B5D741 /* Assets.xcassets in Resources */,
+				17C2B21724D25BD100B5D741 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17C2B20824D25BCC00B5D741 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1710EC7024E4E40F00F7A59F /* OFFViewController.swift in Sources */,
+				17DA680C251863A8006DB801 /* MEIDViewController.swift in Sources */,
+				176D93A424D3B4720054E1F8 /* Oman.swift in Sources */,
+				17C2B21224D25BCC00B5D741 /* GSMViewController.swift in Sources */,
+				1710EC6324E3B8C600F7A59F /* ShellFull.swift in Sources */,
+				1710EC6524E3C3B100F7A59F /* MainViewController.swift in Sources */,
+				1710EC7624EA69ED00F7A59F /* FreeUntViewController.swift in Sources */,
+				17C2B21024D25BCC00B5D741 /* AppDelegate.swift in Sources */,
+				1710EC6924E3C71500F7A59F /* BCViewController.swift in Sources */,
+				1710EC6B24E3CF5C00F7A59F /* Cryptic.swift in Sources */,
+				1710EC6724E3C69E00F7A59F /* FMIViewController.swift in Sources */,
+				176D93A224D3B3A30054E1F8 /* Stockholm.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17C2B22324D2806A00B5D741 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 17C2B22224D2806A00B5D741 /* RNCryptor */;
+		};
+		17C2B22824D2994300B5D741 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 17C2B22724D2994300B5D741 /* Alamofire */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17C2B21524D25BD100B5D741 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17C2B21624D25BD100B5D741 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17C2B21A24D25BD100B5D741 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		17C2B21B24D25BD100B5D741 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		17C2B21D24D25BD100B5D741 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Rocket/Rocket.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = D2777Y3T2Q;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Rocket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = fuckoff.Rocket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		17C2B21E24D25BD100B5D741 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Rocket/Rocket.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = D2777Y3T2Q;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Rocket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = fuckoff.Rocket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17C2B20724D25BCC00B5D741 /* Build configuration list for PBXProject "Rocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17C2B21A24D25BD100B5D741 /* Debug */,
+				17C2B21B24D25BD100B5D741 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17C2B21C24D25BD100B5D741 /* Build configuration list for PBXNativeTarget "Rocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17C2B21D24D25BD100B5D741 /* Debug */,
+				17C2B21E24D25BD100B5D741 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1710EC6C24E3D7AD00F7A59F /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		17C2B21F24D2805F00B5D741 /* XCRemoteSwiftPackageReference "RNCryptor" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RNCryptor/RNCryptor.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.0;
+			};
+		};
+		17C2B22424D2993B00B5D741 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.2.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1710EC6D24E3D7AD00F7A59F /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1710EC6C24E3D7AD00F7A59F /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		17C2B22024D2805F00B5D741 /* RNCryptor */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 17C2B21F24D2805F00B5D741 /* XCRemoteSwiftPackageReference "RNCryptor" */;
+			productName = RNCryptor;
+		};
+		17C2B22224D2806A00B5D741 /* RNCryptor */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 17C2B21F24D2805F00B5D741 /* XCRemoteSwiftPackageReference "RNCryptor" */;
+			productName = RNCryptor;
+		};
+		17C2B22524D2993B00B5D741 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 17C2B22424D2993B00B5D741 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		17C2B22724D2994300B5D741 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 17C2B22424D2993B00B5D741 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 17C2B20424D25BCC00B5D741 /* Project object */;
+}
